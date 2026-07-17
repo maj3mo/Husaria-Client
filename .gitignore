@@ -1,0 +1,9 @@
+# Python bytecode (narzędzia w docs/, np. swf_recon.py)
+__pycache__/
+*.pyc
+
+# Pośrednie / robocze artefakty modowania SWF (MDE-60) — nie wersjonujemy.
+# Oryginał sprzed moda jest w historii gita (loader.swf jest śledzony).
+resources/app/retroclient/loader.swf.orig
+resources/app/retroclient/loader.mde60-*.swf
+resources/app/retroclient/loader_roundtrip.swf
